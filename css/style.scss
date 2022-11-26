@@ -1,0 +1,144 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  --bs-list-group-bg: none;
+  // background-color: #000;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oranienbaum", serif;
+}
+.wrapper {
+  min-height: 100%;
+}
+.navbar {
+  font-family: "Oranienbaum", serif;
+  --bs-bg-opacity: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.list-group {
+  --bs-list-group-bg: none;
+  --bs-list-group-border-width: none;
+  --bs-list-group-border-radius: none;
+}
+.list-group-item {
+  --bs-list-group-item-padding-x: none;
+}
+.nav-icon {
+  align-items: center;
+  margin-right: 60px;
+}
+.icon-nav {
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px 0 0;
+}
+.icon-instagram {
+  background-image: url(../img/icons/1438557260_inst_4.png);
+}
+.icon-facebook {
+  background-image: url(../img/icons/1438557245_ab_4.png);
+}
+.icon-vk {
+  background-image: url(../img/icons/1438423986_vk_3.png);
+}
+@media (max-width: 991px) {
+  .navbar > .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list-group-contact {
+    flex-direction: column;
+    & > :not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+}
+.main-block {
+  // position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.title-logo {
+  background-image: url(../img/main/logo-new.png);
+  width: 212px;
+  height: 147px;
+  margin-top: 30vh;
+}
+.main-block-text h1 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+.main-block-text h2 {
+  font-size: 18px;
+  color: #a38551;
+}
+.main-block-title {
+  display: inline-block;
+}
+.main-block-inner {
+  position: relative;
+  // background-image: url(../img/main/bg-main.png);
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  height: 100%;
+}
+
+.bg-img {
+  width: 100%;
+}
+.main-block-img {
+  position: relative;
+  left: 80px;
+}
+.main-block-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (max-width: 991px) {
+  #navbar .container {
+    gap: 30px;
+  }
+  .list-group-contact {
+    gap: 30px;
+  }
+  .main-block-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-block-title {
+    position: inherit;
+    margin-top: 500px;
+    align-self: center;
+  }
+  .bg-img {
+    height: 400px;
+    width: auto;
+    position: absolute;
+    right: -180px;
+  }
+  .title-logo {
+    margin-top: 0;
+  }
+  .contact-item > *:not(:first-child){
+    margin-top: 10px;
+  }
+  .nav-icon > *:not(:first-child) {
+    margin-left: 10px;
+  }
+  }
