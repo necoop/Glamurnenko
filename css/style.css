@@ -453,7 +453,7 @@ sub {
 }
 
 .slide-how {
-  padding-top: 25px;
+  padding-top: 45px;
   padding-right: 25px;
   display: flex;
 }
@@ -469,6 +469,9 @@ sub {
 }
 
 @media (max-width: 529px) {
+  h2 {
+    text-align: center;
+  }
   .slide-how {
     flex-direction: column;
   }
