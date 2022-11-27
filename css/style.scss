@@ -308,13 +308,15 @@ sub {
 #what-to-wear {
   margin-top: 25px;
 }
+#packages-wrapper {
+  background-color: #fff;
+}
 #packages-inner {
   padding-top: 55px;
   background-color: #fff;
 }
 .card {
-  width: 30%;
-  margin: 0 auto;
+  margin-top: 25px;
   padding: 45px 35px;
   border: 3px solid #e8e8e8;
   border-radius: 0;
@@ -359,7 +361,7 @@ sub {
   .old-price::before {
     content: "";
     position: relative;
-    left: 95px;
+    left: calc(((100% - 70px)/2));
     top: 16px;
     transform: rotate(170deg);
     display: block;
@@ -367,11 +369,19 @@ sub {
     border-width: 2px;
     border-top: 2px;
     border-left: 10px;
-    width: 62px;
+    width: 70px;
   }
 }
 .card-row {
   margin-left: 0;
   margin-right: 0;
 }
-
+#packages-wrapper{
+  & .row {
+    margin: 0 5px;
+    justify-content: space-around;
+  }
+  & h2 {
+    padding-top: 45px;
+  }
+}
