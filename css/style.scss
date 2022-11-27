@@ -316,6 +316,17 @@ sub {
   background-color: #fff;
 }
 .card {
+  & .btn {
+    & .icon-basket {
+      position: relative;
+      margin-left: -43px;
+      visibility: hidden;
+    }
+    & .btn-order-text {
+      display: inline-block;
+      margin-left: 26px;
+    }
+  }
   height: 530px;
   margin-top: 25px;
   padding: 45px 35px;
@@ -367,7 +378,7 @@ sub {
   .old-price::before {
     content: "";
     position: relative;
-    left: calc(((100% - 70px)/2));
+    left: calc(((100% - 70px) / 2));
     top: 16px;
     transform: rotate(170deg);
     display: block;
@@ -377,17 +388,35 @@ sub {
     border-left: 10px;
     width: 70px;
   }
+  text-decoration: none;
+  color: inherit;
 }
 .card-row {
   margin-left: 0;
   margin-right: 0;
 }
-#packages-wrapper{
+#packages-wrapper {
   & .row {
     margin: 0 5px;
     justify-content: space-around;
   }
   & h2 {
     padding-top: 45px;
+  }
+}
+.card:hover {
+  border: 3px solid #bfbfbf;
+  text-decoration: none;
+  color: inherit;
+  -webkit-box-shadow: 4px 4px 10px 2px rgba(34, 60, 80, 0.2),
+    -4px 4px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 10px 2px rgba(34, 60, 80, 0.2),
+    -4px 4px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 10px 2px rgba(34, 60, 80, 0.2),
+    -4px 4px 10px 2px rgba(34, 60, 80, 0.2);
+  & .btn {
+    & .icon-basket {
+      visibility: visible;
+    }
   }
 }
