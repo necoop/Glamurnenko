@@ -143,7 +143,7 @@
                 <div id="you-get-inner">
                     <div class="row" id="table-you-get">
                         <div class="col-8">
-                            <table class="table">
+                            <table>
                                 <tr>
                                     <td>Вы получаете:</td>
                                     <td>Теория</td>
@@ -159,8 +159,8 @@
                                 <tr>
                                     <td>Проверка ДЗ</td>
                                     <td> ‒ </td>
-                                    <td>2,5 месяца<sub><br>*имиджмейкером команды Гламурненько.ру</sub></td>
-                                    <td>2,5 месяца<sub><br>*Лично Екатериной Маляровой</sub></td>
+                                    <td>2,5 месяца<sub><br>* имиджмейкером команды Гламурненько.ру</sub></td>
+                                    <td>2,5 месяца<sub><br>* Лично Екатериной Маляровой</sub></td>
                                 </tr>
                                 <tr>
                                     <td>Тренажер по стилевым типажам</td>
@@ -189,62 +189,11 @@
                                         <div>€</div>
                                     </td>
                                 </tr>
-                                <tr id="td-buttons">
-                                    <td></td>
-                                    <td><button class="btn btn-dark">Заказать</button></td>
-                                    <td><button class="btn btn-dark">Заказать</button></td>
-                                    <td><button class="btn btn-dark">Заказать</button></td>
-                                </tr>
                             </table>
                         </div>
-                        <img src="./img/you-get/2razmera_books_preview_1200_c.png" alt="Книги" class="col-12"
-                            id="what-to-wear">
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="packages" class="container">
-            <div id="packages-inner" class="col-12">
-                <h2 class="text-center">Пакеты услуг</h2>
-                <div id="packges-card-container">
-                    <div class="card-row row">
-                        <div class="card col-4">
-                            <div class="package-signboard text-center fw-bold">Пакет</div>
-                            <div class="package-name text-center fw-bold">«Попробовать»</div>
-                            <div class="sing-term fw-light">Срок:</div>
-                            <div class="term fw-bold">В пределах 24 часов</div>
-                            <div class="term-limit fw-light">Вопросов/комплектов на оценку:</div>
-                            <div class="limit fw-bold">5 ваших луков или 5 вопросов</div>
-                            <div class="old-price text-center fw-light">890₽</div>
-                            <div class="price fw-bold text-center">499₽</div>
-                            <button type="button" class="btn btn-order btn-danger fw-light text-uppercase">Заказать</button>
-                        </div>
-                        <div class="card col-4">
-                            <div class="package-signboard text-center fw-bold">Пакет</div>
-                            <div class="package-name text-center fw-bold">«Попробовать»</div>
-                            <div class="sing-term fw-light">Срок:</div>
-                            <div class="term fw-bold">В пределах 24 часов</div>
-                            <div class="term-limit fw-light">Вопросов/комплектов на оценку:</div>
-                            <div class="limit fw-bold">5 ваших луков или 5 вопросов</div>
-                            <div class="old-price text-center fw-light">890₽</div>
-                            <div class="price fw-bold text-center">499₽</div>
-                            <button type="button" class="btn btn-order btn-danger fw-light text-uppercase">Заказать</button>
-                        </div>
-                        <div class="card col-4">
-                            <div class="package-signboard text-center fw-bold">Пакет</div>
-                            <div class="package-name text-center fw-bold">«Попробовать»</div>
-                            <div class="sing-term fw-light">Срок:</div>
-                            <div class="term fw-bold">В пределах 24 часов</div>
-                            <div class="term-limit fw-light">Вопросов/комплектов на оценку:</div>
-                            <div class="limit fw-bold">5 ваших луков или 5 вопросов</div>
-                            <div class="old-price text-center fw-light">890₽</div>
-                            <div class="price fw-bold text-center">499₽</div>
-                            <button type="button" class="btn btn-order btn-danger fw-light text-uppercase">Заказать</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </section>
     </div>
 
@@ -252,5 +201,7 @@
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
+</html>y>
 
 </html>
