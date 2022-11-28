@@ -5,6 +5,12 @@ body {
   background-color: #000;
   overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
+body.modal-open {
+  padding-right: 0 !important;
+}
 
 a,
 a:hover {
@@ -455,4 +461,32 @@ sub {
       margin: 0 auto;
     }
   }
+}
+.modal-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+.slide-how {
+  cursor: pointer;
+}
+.modal-body {
+  & img {
+    width: 100%;
+  }
+}
+#container-footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-btn-up {
+  align-items: center;
+  margin: 0 auto;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 0;
+  font-size: 12px;
+}
+.footer-link {
+  font-size: 12px;
+  line-height: 24px;
 }

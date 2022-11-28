@@ -75,7 +75,7 @@
             </div>
         </nav>
 
-        <main class="main-block">
+        <main class="main-block" id="main-block">
             <div class="main-block-body container">
                 <div class="main-block-inner">
 
@@ -258,27 +258,111 @@
         <section id="how-it-happends" class="container">
             <div id="how-it-happends-wrapper">
                 <h2 class="col-md-8 col-sm-12 text-uppercase">Как все происходит</h2>
-                <a href="#!" class="slide-how col-md-8 col-sm-12" id="slide-1">
+                <div class="slide-how col-md-8 col-sm-12" id="slide-1" data-bs-toggle="modal"
+                    data-bs-target="#how-pic1">
                     <img src="./img/how-it-happend/first-class-stylish-help-chat-1.jpg" alt="Переписка слайд 1">
-                    <div class="description-how fw-light">Клиентка просит стилиста помочь выбрать одну из курток милитари</div>
-                </a>
-                <a href="#!" class="slide-how col-md-8 col-sm-12" id="slide-2">
+                    <div class="description-how fw-light">Клиентка просит стилиста помочь выбрать одну из курток
+                        милитари</div>
+                </div>
+                <div class="slide-how col-md-8 col-sm-12" id="slide-2" data-bs-toggle="modal"
+                    data-bs-target="#how-pic2">
                     <img src="./img/how-it-happend/first-class-stylish-help-chat-2.jpg" alt="Переписка слайд 2">
-                    <div class="description-how fw-light">Стилист запрашивает дополнительные фотографии для того, чтобы выбор был 100% удачным</div>
-                </a>
-                <a href="#!" class="slide-how col-md-8 col-sm-12" id="slide-2">
+                    <div class="description-how fw-light">Стилист запрашивает дополнительные фотографии для того, чтобы
+                        выбор был 100% удачным</div>
+                </div>
+                <div class="slide-how col-md-8 col-sm-12" id="slide-3" data-bs-toggle="modal"
+                    data-bs-target="#how-pic3">
                     <img src="./img/how-it-happend/first-class-stylish-help-chat-3.jpg" alt="Переписка слайд 3">
-                    <div class="description-how fw-light">Стилист анализирует вещи с учетом уже имеющихся вещей клиентки и помогает сделать правильный выбор</div>
-                </a>
-                <a href="#!" class="slide-how col-md-8 col-sm-12" id="slide-2">
+                    <div class="description-how fw-light">Стилист анализирует вещи с учетом уже имеющихся вещей клиентки
+                        и помогает сделать правильный выбор</div>
+                </div>
+                <div class="slide-how col-md-8 col-sm-12" id="slide-4" data-bs-toggle="modal"
+                    data-bs-target="#how-pic4">
                     <img src="./img/how-it-happend/first-class-stylish-help-chat-4.jpg" alt="Переписка слайд 4">
-                    <div class="description-how fw-light">Благодарная клиентка делится впечатлениями от полученной услуги и радостью удачных покупок</div>
-                </a>
+                    <div class="description-how fw-light">Благодарная клиентка делится впечатлениями от полученной
+                        услуги и радостью удачных покупок</div>
+                </div>
             </div>
         </section>
     </div>
 
+    <footer id="footer">
+        <div class="container">
+            <div class="container-inner mt-5" id="container-footer">
+                <a href="#navbar" class="btn btn-dark footer-btn-up text-uppercase">Наверх
+                    <i class="icon-up-open"></i>
+                </a>
+                <a href="#!" class="footer-link text-white">Вакансии</a>
+                <a href="#!" class="footer-link text-white">Карта сайта</a>
+                <a href="#!" class="footer-link text-white">Политика приватности</a>
+                <a href="https://www.glamurnenko.ru/" target="_blank" class="footer-link text-white">Перепечатка
+                    разрешена только с активной ссылкой на нас</a>
+                <div class="footer-link text-white">&copy <a href="https://www.glamurnenko.ru/" target="_blank">
+                        Glamurnenko.ru</a>, 2005-2022 Тел.:
+                    <a href="tel:88007070513">8(800)707-05-13,</a> <a href="tel:+74993502335"> +7(499)350-23-35</a>
+                </div>
+                <a href="mailto:support@glamurnenko.ru" class="footer-link text-white">Email: support@glamurnenko.ru</a>
+            </div>
+        </div>
+    </footer>
 
+    <!-- Модальные окна -->
+    <div class="modal fade" id="how-pic1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Как все происходит</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/how-it-happend/first-class-stylish-help-chat-1.jpg" alt="Слайд 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="how-pic2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Как все происходит</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/how-it-happend/first-class-stylish-help-chat-2.jpg" alt="Слайд 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="how-pic3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Как все происходит</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/how-it-happend/first-class-stylish-help-chat-3.jpg" alt="Слайд 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="how-pic4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Как все происходит</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/how-it-happend/first-class-stylish-help-chat-4.jpg" alt="Слайд 4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Окончание модальных окон -->
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
