@@ -122,6 +122,9 @@ h6 {
   .list-group-contact > :not(:first-child) {
     margin-top: 10px;
   }
+  .navbar_scrolled {
+    display: none;
+  }
 }
 .main-block {
   width: 100%;

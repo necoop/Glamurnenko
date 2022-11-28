@@ -100,6 +100,11 @@ h6 {
       margin-top: 10px;
     }
   }
+  .navbar {
+    &_scrolled {
+      display: none;
+    }
+  }
 }
 .main-block {
   width: 100%;
