@@ -37,7 +37,28 @@ h6 {
   left: 0;
   top: 0;
   z-index: 100;
+  &_scrolled {
+    position: fixed;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    --bs-bg-opacity: 1;
+    background-color: #000 !important;
+  }
 }
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    top: -50px;
+  }
+  
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 .list-group {
   --bs-list-group-bg: none;
   --bs-list-group-border-width: none;
@@ -490,3 +511,4 @@ sub {
   font-size: 12px;
   line-height: 24px;
 }
+
